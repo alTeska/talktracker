@@ -3,7 +3,7 @@ import talktracker as tt
 
 
 
-class SessionLog(flx.PyComponent):
+class SessionCreate(flx.PyComponent):
 
     def init(self):
         super().init()
@@ -40,7 +40,7 @@ class TalkTrackerGUI(flx.PyComponent):
         super().init()
         with flx.HSplit():
             with flx.VSplit():
-                SessionLog()
+                SessionCreate()
                 with flx.VSplit():
                     pass
 
